@@ -17,5 +17,5 @@ endif
 
 ifeq ($(CONFIG_FB_SUNXI_UMP),y)
 obj-m += disp_ump.o
-EXTRA_CFLAGS += -Idrivers/gpu/mali/ump/include
+EXTRA_CFLAGS += -Idrivers/gpu/arm/ump/include
 endif
